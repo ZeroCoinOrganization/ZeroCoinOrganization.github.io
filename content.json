@@ -1,14 +1,117 @@
 {
- "address": "1MvsV6AC3SGMjFvRkah171KZnYadLAUH3G",
- "address_index": 47335873,
+ "address": "1ZNCyrnSdpws2rruHVy3fTRKfnmd1RMgH",
  "background-color": "#FFF",
  "clone_root": "template-new",
  "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
  "description": "Cryptocurrency assisted by Git (using commits as blocks in blockchain) to help ZeroNet and other projects.",
  "files": {
+  ".git/COMMIT_EDITMSG": {
+   "sha512": "5b802907f862e0ee40ba3f41b3e852b9bae110af0dd58202e615e09dcf118845",
+   "size": 63
+  },
+  ".git/HEAD": {
+   "sha512": "76b199f1bffdc6d21547895431b0f85f3857df400225cbd1ae55e7ded09786a8",
+   "size": 23
+  },
+  ".git/config": {
+   "sha512": "4c5c64de8867d642e9757e2ae8f9e412c31b2d44de61cb271a71b44a9ef71aa5",
+   "size": 130
+  },
+  ".git/description": {
+   "sha512": "f7e152f75b124c3e1c5d12f00427729d9eec4e2c1bf70d7606440a6600d00336",
+   "size": 73
+  },
+  ".git/hooks/applypatch-msg.sample": {
+   "sha512": "536cce804d84e25813993efdd240537b52d00ce9cdcecf1982f85096d56a5212",
+   "size": 478
+  },
+  ".git/hooks/commit-msg.sample": {
+   "sha512": "d6bb7fa747f4625adf1877f546565cbe812ca7dd4168f7e9068e6732555d8737",
+   "size": 896
+  },
+  ".git/hooks/fsmonitor-watchman.sample": {
+   "sha512": "4f611b6fc08db7552a0eaca432c41d1114cd4daa066d9fc722f34f6de05ec3ee",
+   "size": 3327
+  },
+  ".git/hooks/post-update.sample": {
+   "sha512": "473ad124642571656276bf83b9ff63ab1804d3c23a5bdae52391c6f70a894849",
+   "size": 189
+  },
+  ".git/hooks/pre-applypatch.sample": {
+   "sha512": "cb78aa7e9b9c146e5db65d86dd83f04e2b6942a06fab50c704a0fd900683f3b6",
+   "size": 424
+  },
+  ".git/hooks/pre-commit.sample": {
+   "sha512": "4a7ac2ed2ffe50d2a997c3477b5855c3d19423c295a82f7d660be3418217a183",
+   "size": 1642
+  },
+  ".git/hooks/pre-push.sample": {
+   "sha512": "37cd20a090494acb16c2255fe93dadeb409f2553afddc409dad5b5e99c9f5612",
+   "size": 1348
+  },
+  ".git/hooks/pre-rebase.sample": {
+   "sha512": "00d21d5d72386c3d9b5a1c36ba85201f730556a8295d4353af54af7892ab8101",
+   "size": 4898
+  },
+  ".git/hooks/pre-receive.sample": {
+   "sha512": "ee08c11fab7e896b2e09c241954ba7640338b12c75cd8040daf053c31b2f2223",
+   "size": 544
+  },
+  ".git/hooks/prepare-commit-msg.sample": {
+   "sha512": "50ec8a0dd98427e80a82a8d8ce44462a845876e1594c9d0e89483ce9a8aaad61",
+   "size": 1492
+  },
+  ".git/hooks/update.sample": {
+   "sha512": "759abd33e5d1dda9b3e3d3116c47b23f616320d70cd66d567b1c4eeefeb6d785",
+   "size": 3610
+  },
+  ".git/index": {
+   "sha512": "5ab0e2161e14960955682b54c5a3cc6b8eadfb456728856f1fd95194202fe71f",
+   "size": 332
+  },
+  ".git/info/exclude": {
+   "sha512": "9828c6ecdf91bf117416e17f4ee9caee2e1e37b6fb00b9ff04035ace17a3089b",
+   "size": 240
+  },
+  ".git/logs/HEAD": {
+   "sha512": "c5eb7ec59892a2ea929341510a31c8f93d94beecfe88171425e5ac9999c317ee",
+   "size": 164
+  },
+  ".git/logs/refs/heads/master": {
+   "sha512": "c5eb7ec59892a2ea929341510a31c8f93d94beecfe88171425e5ac9999c317ee",
+   "size": 164
+  },
+  ".git/objects/0d/97d9e9ac2935b860db5ba361753603ac313f2c": {
+   "sha512": "5ac93ddf4b44c44f4602e7bf5bb89a1634a33e178a7af5b730cb7a7ef4bf1a5f",
+   "size": 1230
+  },
+  ".git/objects/19/ff3871352aaa7f6d07f7345b8b48696238e662": {
+   "sha512": "80d4910600eda65986c87da5dc98ea8aaf312e0f68b9bf05336bd3ab9416879f",
+   "size": 626
+  },
+  ".git/objects/3e/03429877cc2687a2ee9f6eb764d134c3f1563d": {
+   "sha512": "28670d164eba0151a5425565f2f216ccfc3114fd4ce7d8e75f6b9c4b56317de0",
+   "size": 150
+  },
+  ".git/objects/87/616fb65424783988686b5edb95968a0f7841c4": {
+   "sha512": "f9a15a81e5f8d97dc628260fdcf7bffd58414b6c73ca819d3236abeebd753cff",
+   "size": 57
+  },
+  ".git/objects/96/35319f85048f8f2ef6668b3e987151f9dfe23c": {
+   "sha512": "9b4b00ddec1a9ae56a8d8a4506a507723601369d3dea13b74913af5558aa7ff1",
+   "size": 120
+  },
+  ".git/objects/ad/697a16e7f2c4f50286fbc79d916d0fabec5e44": {
+   "sha512": "9754b2fd140dcd4a247b078f956c6da314dccfd9af33a5620d963c25f681aa7a",
+   "size": 724
+  },
+  ".git/refs/heads/master": {
+   "sha512": "8cd1cadf7f1a3c03090bf45ff820076733e56b6f8dde4e6532753c879d4ab59c",
+   "size": 41
+  },
   "index.html": {
-   "sha512": "542f7724432a22ceb8821b4241af4d36cfd81e101b72d425c6c59e148856537e",
-   "size": 1114
+   "sha512": "730d61876c511f60cde4341a753a2a52eec90b37f6d553dc24c32f5438f83c2d",
+   "size": 4640
   },
   "js/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
@@ -17,11 +120,11 @@
  },
  "ignore": "",
  "inner_path": "content.json",
- "modified": 1533329202,
+ "modified": 1537066299,
  "postmessage_nonce_security": true,
- "signers_sign": "HAfEviam0UgCnmMbu5oFTnVfVI6uGN0WDoyvWZHJnBJrXe9ddbq1Wq1J4snUOIWIF+OfflujLTquuT5Rpq5PNFs=",
+ "signers_sign": "HOxkU63gty9fe1GnOmZhFFmIIo4DljWOIk9KVkBIHFpNSRlIX6bhomZX485uRsZCFfEmwnBSITTTENsFTKIpTJc=",
  "signs": {
-  "1MvsV6AC3SGMjFvRkah171KZnYadLAUH3G": "HGVN/6Eqqhf+vcQcck2QU9/ZiVJ0DTlUP3IN51UU+h1RWeJLolceDbN7oVL+Xwpj0Tf2IbOs0N2y0gpDBz8JRvc="
+  "1ZNCyrnSdpws2rruHVy3fTRKfnmd1RMgH": "HGe7dlo3hh6JPTiS5scmQY9CKsq7AewDDM/Bm8Bji+7AHqtSf0R2jnClBudnDBBma49vDChPklN9nAgey6Kn4pg="
  },
  "signs_required": 1,
  "title": "Zerocoin",
