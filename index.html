@@ -1,18 +1,40 @@
-
 <!DOCTYPE html>
-
-<html>
+<html lang="en-us">
 <head>
- <title>Zerocoin</title>
- <meta charset="utf-8">
- <meta http-equiv="content-type" content="text/html; charset=utf-8" />
- <base href="" target="_top" id="base">
- <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
-</head>
-<body><center>
+<title color="#fff">Zerocoin</title>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="icon" href="icon.png" />
+<link rel="logo" href="icon.svg" border="true" />
+<base href="" target="_top" id="base">
 
-<h1>Zerocoin (ZNC)</h1>
-<p>Cryptocurrency assisted by Git (using commits as blocks in blockchain) to help ZeroNet and other projects.</p></center>
+ <script>base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/[&?]wrapper=False/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "")</script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<zeronet><script type="text/javascript" src="js/ZeroFrame.js"></script>
+<script type="text/javascript" src="plugins/ZeroDevLib/ZeroPage.js"></script></zeronet>
+<script type="text/javascript" src="js/page-common.js"></script>
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link rel="stylesheet" type="text/css" href="css/page-custom.css">
+<link rel="stylesheet" type="text/css" href="css/app-custom.css">
+<link href="Fonts/Roboto/font.css" rel="stylesheet">
+<link href="Fonts/Material Icons/font.css" rel="stylesheet">
+<zeronet><link href="Fonts/Text Me One/font.css" rel="stylesheet"></zeronet>
+<meta name="pehtml" content="true">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+<meta name="directory" content="css, js, img, snd">
+<meta name="description" content="Cryptocurrency assisted by Git (using commits as blocks in blockchain) to help ZeroNet and other projects.">
+<meta name="keywords" content="cryptocurrency, wallet, bitcoin, crypto, encrypted, virtual, currency">
+ </head>
+<body>
+
+<header><logo>Zerocoin</header>
+<div class="content">
+
+<article>
+<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="https://plasnerd.github.io/PEHTML/img/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="https://plasnerd.github.io/PEHTML/img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml>
+
+<center><img width="200px" src="icon.png" title="Zerocoin | This logo is so beauty <3"><h1><element style="font-family: 'Text Me One'">Zerocoin</element> (ZNC)</h1><h6>Cryptocurrency assisted by Git (using commits as blocks in blockchain) to help ZeroNet and other projects.</h6></center>
 <li>Wallet zite</li>
 <li>Blockchain as merger site</li>
 <li>Blockchain size</li>
@@ -116,39 +138,46 @@
 <li>Sync status and date behind</li>
 <li>Show Zerocoin count, with link to ZNC Wallet</li>
 <li>Users can donate to an address, to domains active (users can choose for which domain they are donating, and the excess is for other domains in the address)</li>
+</article>
 
-<div id="out"></div>
-
-<script type="text/javascript" src="js/ZeroFrame.js"></script>
-
+<comments>
+<h1 id="comments"><i class="material-icons">comment</i> Comments <span class="badge"><a href="https://plasnerd.github.io/Framework.js#disqus_thread">Loading...</a></span></h1>
+<blockquote>
+<clearnet>
+<div id="disqus_thread"></div>
 <script>
 
-class Page extends ZeroFrame {
-	setSiteInfo(site_info) {
-		var out = document.getElementById("out")
-		out.innerHTML =
-			"Page address: " + site_info.address +
-			"<br>- Peers: " + site_info.peers +
-			"<br>- Size: " + site_info.settings.size +
-			"<br>- Modified: " + (new Date(site_info.content.modified*1000))
-	}
-
-	onOpenWebsocket() {
-		this.cmd("siteInfo", [], function(site_info) {
-			page.setSiteInfo(site_info)
-		})
-	}
-
-	onRequest(cmd, message) {
-		if (cmd == "setSiteInfo")
-			this.setSiteInfo(message.params)
-		else
-			this.log("Unknown incoming message:", cmd)
-	}
-}
-page = new Page()
-
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://framework-js.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            </clearnet>
+<zeronet>ZeroNet doesn't have a commenting system yet.</zeronet>
+</blockquote>
 
+</comments>
+
+<footer>
+<div class="footer-shadow"></div>
+<center>Last update in 25/08/2018 at 22:54</center>
+<img src="img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right: 5px;"> <a href="https://plasnerd.github.io/PEHTML/" target="blank" class="no-opacity"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" title="Built with PEHTML" style="-webkit-user-drag:element"></a>
+<div class="social-icons"><a href="https://github.com/ZeroCoinOrganization/" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve Zerocoin in GitHub" alt="GitHub"></a><!-- <a href="https://facebook.com/" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about FrameworkJS progress and other development tools" alt="Facebook"></a>--><!--<a href="https://twitter.com/" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about FrameworkJS progress and other development tools" alt="Twitter"></a>--><!--<a href="https://.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a>--></div><div class="social-buttons"></div>
+<copyright><center>(c) 2014-2018 <a href="https://plasnerd.github.io/" target="blank"><small>Plasnerd</small></a>.</center></copyright>
+</footer>
+</div>
+<clearnet><script id="dsq-count-scr" src="//framework-js.disqus.com/count.js" async></script></clearnet>
 </body>
 </html>

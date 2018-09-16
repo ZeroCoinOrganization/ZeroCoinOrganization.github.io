@@ -7,8 +7,8 @@
  "favicon": "icon.png",
  "files": {
   ".git/COMMIT_EDITMSG": {
-   "sha512": "4aaddfcd8d15b87fc1f0ac3e9124258acdbce7301915b685d915ef67c57eec99",
-   "size": 70
+   "sha512": "a284b84a7411e46c068159f6adf2b25159a3e345c042ad5d89b3c8bf56d25dee",
+   "size": 80
   },
   ".git/HEAD": {
    "sha512": "76b199f1bffdc6d21547895431b0f85f3857df400225cbd1ae55e7ded09786a8",
@@ -67,24 +67,28 @@
    "size": 3610
   },
   ".git/index": {
-   "sha512": "f66dd114df557fd353645a558d58d56e2db72a6b6dec6e8b6d2961569809d8aa",
-   "size": 404
+   "sha512": "e8d7c20745a07870df067a94716c618fdd85c4176c24083750542c8c1e933c93",
+   "size": 484
   },
   ".git/info/exclude": {
    "sha512": "9828c6ecdf91bf117416e17f4ee9caee2e1e37b6fb00b9ff04035ace17a3089b",
    "size": 240
   },
   ".git/logs/HEAD": {
-   "sha512": "68a19b45c184ecc9eb65c68dd09541ceabf4aa91872a1bf77b6713cca10f0c24",
-   "size": 499
+   "sha512": "c28e6018b766c27af69c1bb5050a5ac340f9dabda972f0153eaa5a099a6601e5",
+   "size": 670
   },
   ".git/logs/refs/heads/master": {
-   "sha512": "68a19b45c184ecc9eb65c68dd09541ceabf4aa91872a1bf77b6713cca10f0c24",
-   "size": 499
+   "sha512": "c28e6018b766c27af69c1bb5050a5ac340f9dabda972f0153eaa5a099a6601e5",
+   "size": 670
   },
   ".git/objects/0d/97d9e9ac2935b860db5ba361753603ac313f2c": {
    "sha512": "5ac93ddf4b44c44f4602e7bf5bb89a1634a33e178a7af5b730cb7a7ef4bf1a5f",
    "size": 1230
+  },
+  ".git/objects/15/2bc6d9e7bf439de2e2e0176e751f2abd9b20b7": {
+   "sha512": "c56530861b9f8520f1a57e8eef3f91de6a6f21d27252f9dd1255aef0476da064",
+   "size": 671186
   },
   ".git/objects/17/4230bc4e7751eb6b50c055f5ca48d470074d64": {
    "sha512": "bb7c0346e3dc8bfb77b167d2b9f83e07cbf946c4131dfe1569c362a39fa1356d",
@@ -130,6 +134,14 @@
    "sha512": "9754b2fd140dcd4a247b078f956c6da314dccfd9af33a5620d963c25f681aa7a",
    "size": 724
   },
+  ".git/objects/b3/e42abe667498c6e923c60a2ca9479e8de0c261": {
+   "sha512": "e11f9c0d12d1f76560718e18dc913f8c269e235317ff212828545f16765fcd89",
+   "size": 190
+  },
+  ".git/objects/b7/f6ca5e88296a6d6d19e33952433bf1b51a59e6": {
+   "sha512": "290f39aa082492f19d6946bd3dcefa68f1f278807047785513f30bae4daf21b5",
+   "size": 199
+  },
   ".git/objects/bb/0b44f84dcca603fa92f4d2e18da3819e4a4722": {
    "sha512": "65001206b7ed81319a94af155b6901dff94a2ed179b82b982f3c00ed582dd79c",
    "size": 1790
@@ -138,8 +150,12 @@
    "sha512": "d43b54d8038d3fadfe962af2d1f38a1639cb47ed6d8f9fe4dd28fe06a2202da8",
    "size": 2279
   },
+  ".git/objects/fb/3c638275bfc6d5445fc23716a9496d6f691337": {
+   "sha512": "49d5f735f86cdd8abfc659326447b2713a0881aa685247a3f844a26f7ec33ff3",
+   "size": 3046
+  },
   ".git/refs/heads/master": {
-   "sha512": "545cd246be806d3e2a542f1d14e3a0d540d0f0c535ff1a0609d7e247b3225587",
+   "sha512": "60d76d2224977b08dce41835d33136cf40a0c86226d4af356882fb7b30c2788d",
    "size": 41
   },
   ".git/tortoisegit.data": {
@@ -150,26 +166,206 @@
    "sha512": "3a8ced4a8dd69eb5413740dad64589d39f1fd85b95310c0e306532b146c9b0fd",
    "size": 40
   },
+  "Fonts/Material Icons/font.css": {
+   "sha512": "6d6940b43ac0f2d4225503f0cf589176e4ffb3817c5d804ec96567a23d10f7e7",
+   "size": 875
+  },
+  "Fonts/Material Icons/font.eot": {
+   "sha512": "5022976817b89349a71e0438b573f53dc5b743acc865163102d6d657cc3fbeff",
+   "size": 143258
+  },
+  "Fonts/Material Icons/font.ttf": {
+   "sha512": "cd8784a162ed428ca5a76e5e877349d50620773e3a3d202d5199fefb5d69a9b8",
+   "size": 128180
+  },
+  "Fonts/Material Icons/font.woff": {
+   "sha512": "0ab5e18ee3972fcd599ead183d81cd38d8c559a5e87ca86eebcb6a2cfae2078a",
+   "size": 57620
+  },
+  "Fonts/Material Icons/font.woff2": {
+   "sha512": "baa17185bedd1f04b138a1de3741b7a6052a02c1d4848d5359ae3ecc80061c54",
+   "size": 44300
+  },
+  "Fonts/Roboto/Apache License.txt": {
+   "sha512": "030c3b3c111f4526e673eb2baf722cafef7b2da64b5b8a5fbdd2b773a42fb470",
+   "size": 11523
+  },
+  "Fonts/Roboto/font.css": {
+   "sha512": "da57f6c4c486043d3c47635662779f66c0c91d3357cf43ff094594f61eaa792c",
+   "size": 1839
+  },
+  "Fonts/Roboto/roboto-cyrillic.woff2": {
+   "sha512": "a025abed81115dadfbf9d73caf259cfaa430b8b878b7d5112f42052b0465b59c",
+   "size": 9996
+  },
+  "Fonts/Roboto/roboto-cyrillicext.woff2": {
+   "sha512": "f7f3b605ebbf6fde40c095fa05fbda005fd767d6ef817103bbdff9eaa44d202c",
+   "size": 15832
+  },
+  "Fonts/Roboto/roboto-greek.woff2": {
+   "sha512": "77973c8627d9dc3927556a4147fa58732ed31aa15e377473f5c9d84ddc4fca72",
+   "size": 7208
+  },
+  "Fonts/Roboto/roboto-greekext.woff2": {
+   "sha512": "9720ea16b663fec31f187c2e37d58e39cf461ec2503bc92600fc9f19204e374b",
+   "size": 1432
+  },
+  "Fonts/Roboto/roboto-latin.woff2": {
+   "sha512": "dc1bc9b7984cae9e53d2e31f4b4575151a15d9c0dd107b5a7c11bb4657980e24",
+   "size": 14584
+  },
+  "Fonts/Roboto/roboto-latinext.woff2": {
+   "sha512": "964432740f36d0a11d5e00414d7307d24103a1b0d49cddedce7525d1d0c67c56",
+   "size": 12008
+  },
+  "Fonts/Roboto/roboto-vietnamese.woff2": {
+   "sha512": "d3084b282bc0e5bdbd897cc61fb55bef3dca824aa692d36d26e8a30c861c3b53",
+   "size": 4896
+  },
+  "Fonts/Text Me One/OFL.txt": {
+   "sha512": "5b310c060e4e2517fdb38d979cdae40876da5340c7e5506457b083d1f629c349",
+   "size": 4498
+  },
+  "Fonts/Text Me One/font.css": {
+   "sha512": "23b810c107194e9f03d483152978ce4da57c2341662a5274727ec53b7ca0c1aa",
+   "size": 713
+  },
+  "Fonts/Text Me One/textmeone-latin.woff2": {
+   "sha512": "1fea7a2bee77bea185895fa93071845b8366f492b87f99647150aa3113fdfe8a",
+   "size": 10736
+  },
+  "Fonts/Text Me One/textmeone-latinext.woff2": {
+   "sha512": "31dabbffb0537c61be96e91eecb7047b4669162b5efae72c55b3d683cf57a5cf",
+   "size": 1460
+  },
+  "Presentation.pptx": {
+   "sha512": "443564907b65412d7d3fcee459a40de55d1218d691a0d688861cd63b40ae4ee1",
+   "size": 712181
+  },
+  "css/app-common.css": {
+   "sha512": "c98215bf6852c58e833b48257f1eb8459f6426efb0ffbf8ced845b5ad190939d",
+   "size": 608
+  },
+  "css/app-custom.css": {
+   "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce",
+   "size": 0
+  },
+  "css/page-common.css": {
+   "sha512": "89a7be24f71e6069c753d670a388b626bcccd0ac70f3b769ae7f45cd34dbf938",
+   "size": 11094
+  },
+  "css/page-custom.css": {
+   "sha512": "9e5cf76fcef0a9bb46db11d1ac3cd69faf6611581f3d180c2e3db144a650d895",
+   "size": 1219
+  },
   "icon.png": {
    "sha512": "ceb82c94e807422a641eefe999c7db309a401122130451a5b8a1bcb46385d84e",
    "size": 92910
   },
+  "img/seal-1.png": {
+   "sha512": "834f6edca93ce255ecac3e7ec5c3d2df82d3c3c6ee21f6609296063878339060",
+   "size": 10067
+  },
+  "img/social/ask.svg": {
+   "sha512": "53dd2e85f1f49bddbe4e181903364914bca1fbecfccf0e066c49f85499c515bd",
+   "size": 941
+  },
+  "img/social/deviantart.svg": {
+   "sha512": "d22eddf5f8afd9c9f28d7b4a1e52226f2b89473b270cd953ede07a95c67527f4",
+   "size": 1034
+  },
+  "img/social/facebook.svg": {
+   "sha512": "99d5c1bdf903014ef924b51e5e7f83b08a8ff02fb16c0b71d9df3409149428a5",
+   "size": 1021
+  },
+  "img/social/github.svg": {
+   "sha512": "c63efa2a5711f437958a1ac4dab682999ffa9f57d3bae44133645d935c9fbd36",
+   "size": 882
+  },
+  "img/social/twitter.svg": {
+   "sha512": "07a1b8cb359cd913774edb40c9f57b8bcafafbd84032f84a4612bee064e78bf9",
+   "size": 1264
+  },
   "index.html": {
-   "sha512": "c02037bce545a98a36f196f1cfc8347d0733b508cfa47d7cd49eaf6798fb4c2b",
-   "size": 4657
+   "sha512": "e3b7901a02e666b8de3f8124a30d52607f8687ae0a63a5257eb66cc7a9f2094d",
+   "size": 9306
   },
   "js/ZeroFrame.js": {
    "sha512": "42125c7aa72496455e044e3fd940e0f05db86824c781381edb7a70f71a5f0882",
    "size": 3370
+  },
+  "js/app.js": {
+   "sha512": "640b8f13f607a9c7135eed109eddd30ef31f4b0eb5e9c1f7fac41f3de6be2dd8",
+   "size": 197
+  },
+  "js/jquery.min.js": {
+   "sha512": "dcff2b5c2b8625d3593a7531ff4ddcd633939cc9f7acfeb79c18a9e6038fdaa9",
+   "size": 86659
+  },
+  "js/page-common.js": {
+   "sha512": "475294998fce105a39844992a257810a31aa34bb2896b91109c1d2161d015b63",
+   "size": 2997
+  },
+  "plugins/ZeroDevLib/RemoteZeroDB.js": {
+   "sha512": "02b7279b107feb1f8c058ece8579944cd019df6429a1c7cbbddfe4ea8b0d7915",
+   "size": 2073
+  },
+  "plugins/ZeroDevLib/RemoteZeroFS.js": {
+   "sha512": "93a0acff9bdd70998513b2ccdad44337ffd136a3bf0118fbd48ada73029a15ff",
+   "size": 4525
+  },
+  "plugins/ZeroDevLib/ZeroAuth.js": {
+   "sha512": "8d844303ef26b834dfd439a97f470e42257d4c976bae1b5c47c4bc8cabc05993",
+   "size": 2270
+  },
+  "plugins/ZeroDevLib/ZeroBigFiles.js": {
+   "sha512": "65f3a8343bd08e9c0a7bf0a7821e0c70dc4f1cbf39b1e5ccd7e39236ab7e2044",
+   "size": 1193
+  },
+  "plugins/ZeroDevLib/ZeroDB.js": {
+   "sha512": "88ab49984f68cac9399442cd1403a453026d9278993204a8a26ec54c34264f90",
+   "size": 5431
+  },
+  "plugins/ZeroDevLib/ZeroFS.js": {
+   "sha512": "526521c57adb5e8f37265ccc8badba7644e594db51d7cf862db9c4e2331e3ce9",
+   "size": 5839
+  },
+  "plugins/ZeroDevLib/ZeroFrame.js": {
+   "sha512": "ef5603cac9af4eb3d2224a006940141a9f876014e0e4897ba442bb5be18ceb99",
+   "size": 2517
+  },
+  "plugins/ZeroDevLib/ZeroID.js": {
+   "sha512": "6b7985825f55b475beb89ee225cf16e0d721e6069fae4716018a451bbead88cf",
+   "size": 4367
+  },
+  "plugins/ZeroDevLib/ZeroOptional.js": {
+   "sha512": "bc4b2b525f31de05ef0c8957f582e9f1a797d6ffaa38bf88224d11af820ba98e",
+   "size": 3372
+  },
+  "plugins/ZeroDevLib/ZeroOptionalProxy.js": {
+   "sha512": "b89047fc186a76a0da2d0958ffc22380b5a9738cec5a34e9604074b30b2718c9",
+   "size": 1915
+  },
+  "plugins/ZeroDevLib/ZeroPage.js": {
+   "sha512": "5be50829eac549e6b62937921c6d2bea930949c27505ce7dc2d49cae4d25c1d5",
+   "size": 8052
+  },
+  "plugins/ZeroDevLib/main.js": {
+   "sha512": "348954fbc6ef34b235274a7aeee1a72ac9b65d656b3c89999d5b0be02b31783f",
+   "size": 435
+  },
+  "plugins/ZeroDevLib/package.json": {
+   "sha512": "e5c1b83ef8516a074c7987de7d7c79f52795bf0ef6ef8061330eee10818f9da6",
+   "size": 604
   }
  },
  "ignore": "",
  "inner_path": "content.json",
- "modified": 1537067171,
+ "modified": 1537069702,
  "postmessage_nonce_security": true,
  "signers_sign": "HOxkU63gty9fe1GnOmZhFFmIIo4DljWOIk9KVkBIHFpNSRlIX6bhomZX485uRsZCFfEmwnBSITTTENsFTKIpTJc=",
  "signs": {
-  "1ZNCyrnSdpws2rruHVy3fTRKfnmd1RMgH": "HNM++XVJ1KfjP/5/SWcZBSNM3fIkIPP/DGg0amy4jvE/VouEkKi8jRtKYZ03si5nmWAtX+0zV496syjs1x5iQr0="
+  "1ZNCyrnSdpws2rruHVy3fTRKfnmd1RMgH": "G3xBVRNXIYTZpNHAM3uFEDyEJVrevKcK4qPZhCskwCO/A17vPmck2Howy4UOznEdojOpV4YC7/rZI7/HM6a80K8="
  },
  "signs_required": 1,
  "title": "Zerocoin",
